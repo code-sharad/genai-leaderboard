@@ -12,6 +12,7 @@ function TableIndex() {
 
   const imported_data = JSON.stringify(dataArr);
   const data = JSON.parse(imported_data);
+  console.log(imported_data);
   const [Participationdata, setParticipationdata] = useState([...data]);
   const [EligibleforSwags, setEligibleforSwags] = useState(0);
 
@@ -35,6 +36,7 @@ function TableIndex() {
     }
     // console.log(newArr);
     setParticipationdata(newArr);
+    
   }
   // const Ref = useRef(null);
 

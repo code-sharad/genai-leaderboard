@@ -6,7 +6,7 @@ function TableRow({ participant }) {
     <tr className=" border border-b-slate-200 odd:bg-white even:bg-gray-50">
       <td className="Student_Name p-3 uppercase">
         {participant["Rank"]}
-        {/* {participant["All 3 Pathways Completed - Yes or No"] == "Yes" ? "🏅" : ""} */}
+        {participant["All 3 Pathways Completed - Yes or No"] == "Yes" ? "🏅" : ""}
       </td>
 
       <td className="Student_Name p-3 uppercase">
